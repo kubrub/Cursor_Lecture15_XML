@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Flowers xmlns:xsi ="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation ="src/main/resources/FlowersScheme.xsd">
+
+    <Flower name="Rose" origin="Ukraine">
+
+        <VisualParams>
+            <ColorOfFlower>White</ColorOfFlower>
+            <LeafColor>Green</LeafColor>
+            <Size>Medium</Size>
+        </VisualParams>
+
+        <GrowingTips>
+            <Temperature>19C</Temperature>
+            <Light>true</Light>
+        </GrowingTips>
+
+        <HowMultiplying>Seeds</HowMultiplying>
+        <Soil>Sand</Soil>
+
+    </Flower>
+
+    <Flower name="chamomile" origin="Ukraine">
+
+        <VisualParams>
+            <ColorOfFlower>White</ColorOfFlower>
+            <LeafColorOfFlower>Green</LeafColorOfFlower>
+            <SizeOfFlower>Small</SizeOfFlower>
+        </VisualParams>
+
+        <GrowingTips>
+            <Temperature>15C</Temperature>
+            <Light>true</Light>
+        </GrowingTips>
+
+        <Multiplying>Seeds</Multiplying>
+        <Soil>Sand</Soil>
+    </Flower>
+</Flowers>
+
